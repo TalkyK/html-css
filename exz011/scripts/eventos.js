@@ -14,3 +14,7 @@ function clicar4(){
     var resultado = document.getElementById('resultado')
     resultado.innerHTML += '<p>Você clicou no quarto botão.</p>'
 }
+function resetar(){
+    var resultado = document.getElementById("resultado")
+    resultado.innerHTML = null
+}
